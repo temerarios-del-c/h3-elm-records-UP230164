@@ -112,16 +112,16 @@ myLaptop =
 
 
 main =
-    Html.div [] [ 
-        Html.h1 [] [
-             Html.text "My laptop" 
-            ], 
-        Html.div [] [ 
-            Html.ul [] [ 
-                Html.li [] [ Html.text ("Ram:" ++ myLaptop.ram) ],
-                Html.li [] [ Html.text ("Modelo:" ++ myLaptop.model) ],
-                Html.li [] [ Html.text ("Marca:" ++ myLaptop.brand) ],
-                Html.li [] [ Html.text ("Pulgadas:" ++ myLaptop.screenSize) ]
-            ] 
-        ] 
-    ]
+    Html.div []
+        [ Html.h1 []
+            [ Html.text "My laptop"
+            ]
+        , Html.div []
+            [ Html.ul []
+                [ Html.li [] [ Html.text ("Ram:" ++ myLaptop.ram) ]
+                , Html.li [] [ Html.text ("Modelo:" ++ myLaptop.model) ]
+                , Html.li [] [ Html.text ("Marca:" ++ myLaptop.brand) ]
+                , Html.li [] [ Html.text ("Pulgadas:" ++ myLaptop.screenSize) ]
+                ]
+            ]
+        ]

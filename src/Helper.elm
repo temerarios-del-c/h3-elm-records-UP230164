@@ -111,6 +111,7 @@ myLaptop =
     }
 
 
+main : Html.Html msg
 main =
     Html.div []
         [ Html.h1 []
